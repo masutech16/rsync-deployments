@@ -1,0 +1,7 @@
+name: 'rsync-deployments'
+description: 'Sync with rsync'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.USER_AND }}
